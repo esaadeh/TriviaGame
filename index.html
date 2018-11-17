@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles.css" />
+</head>
+
+<body>
+
+    <div class="container">
+
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Trivia Game - Christmas Movies</h1>
+                <button class="button" id="start">START</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p id="timer">Time: 60 sec</p>
+            </div>
+        </div>
+
+        <form>
+            <div class="row"> Bill Murray acted with his three brothers in the movie Scrooged. Which of the following ws not his brother?
+                <div class="col-md-12">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a01" value="0">
+                        <label class="form-check-label" for="inlineRadio1">Brian-Doyle Murray</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a02" value="0">
+                        <label class="form-check-label" for="inlineRadio2">Joel Murray</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a03" value="1">
+                        <label class="form-check-label" for="inlineRadio3">David Murray</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a04" value="0">
+                        <label class="form-check-label" for="inlineRadio2">John Murray</label>
+                    </div>
+                </div>
+            </div>
+        </form>
+            <br>
+
+           <form>
+            <div class="row">Directed by Tim Burton, the movie The Nightmare Before Christmas was adapted from what?
+                <div class="col-md-12">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a05" value="1">
+                        <label class="form-check-label" for="inlineRadio1">A poem</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a06" value="0">
+                        <label class="form-check-label" for="inlineRadio2">A Play</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a07" value="0">
+                        <label class="form-check-label" for="inlineRadio3">A game</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a08" value="0">
+                        <label class="form-check-label" for="inlineRadio2">A TV ad</label>
+                    </div>
+                </div>
+            </div>
+        </form>
+            <br>
+
+          <form>
+            <div class="row"> In Elf, Will Ferrell starred in the lead role. But the role was originally intended for someone else. Who?
+                <div class="col-md-12">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a09" value="0">
+                        <label class="form-check-label" for="inlineRadio1">Steve Carell</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a10" value="1">
+                        <label class="form-check-label" for="inlineRadio2">Jim Carrey</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a11" value="0">
+                        <label class="form-check-label" for="inlineRadio3">Tim Allen</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a12" value="0">
+                        <label class="form-check-label" for="inlineRadio2">Chris Rock</label>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <br>
+
+        <form>
+            <div class="row"> Which Christmas sone opened the movie Lethal Weapon?
+                <div class="col-md-12">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a13" value="1">
+                        <label class="form-check-label" for="inlineRadio1">Jingle Bell Rock</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a14" value="0">
+                        <label class="form-check-label" for="inlineRadio2">Santa Claus is Coming to Town</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a15" value="0">
+                        <label class="form-check-label" for="inlineRadio3">Winter Wonderland</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a16" value="0">
+                        <label class="form-check-label" for="inlineRadio2">Merry Christmas Darling</label>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <br>
+
+        <form>
+            <div class="row"> Which best selling toy Christmas toy partly inspired the movie Jingle All the Way?
+                <div class="col-md-12">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a17" value="0">
+                        <label class="form-check-label" for="inlineRadio1">Hot Wheels</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a18" value="1">
+                        <label class="form-check-label" for="inlineRadio2">Power Rangers</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a19" value="0">
+                        <label class="form-check-label" for="inlineRadio3">Tickle Me Elmo</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a20" value="0">
+                        <label class="form-check-label" for="inlineRadio2">Bratz</label>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <br>
+
+        <form>
+            <div class="row"> Mogwai, the cute fluffy animal in the movie Gremlins was a Christmas gift found in which type of store?
+                <div class="col-md-12">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a21" value="1">
+                        <label class="form-check-label" for="inlineRadio1">Antique store</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a22" value="0">
+                        <label class="form-check-label" for="inlineRadio2">Book store</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a23" value="0">
+                        <label class="form-check-label" for="inlineRadio3">Delicatessen</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="a24" value="0">
+                        <label class="form-check-label" for="inlineRadio2">Hardware store</label>
+                    </div>
+                </div>
+            </div>
+        </form>
+            <button class="button" onclick="mySubmit()">Submit</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
